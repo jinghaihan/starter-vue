@@ -1,0 +1,22 @@
+{
+  "appearance": {
+    "title": "自定义外观",
+    "sub-title": "为您的组件选择样式和颜色",
+    "color-scheme": "主题",
+    "color-scheme-light": "浅色",
+    "color-scheme-dark": "深色",
+    "color-scheme-auto": "跟随系统",
+    "primary-color": "主题色",
+    "radius": "圆角",
+    "page-transition": "页面切换动画"
+  },
+  "widget": {
+    "dark-toggle": "切换深色模式",
+    "fullscreen-toggle": "切换全屏模式",
+    "language-toggle": "切换语言"
+  },
+  "page": {
+    "home": "首页",
+    "not-found": "未找到页面"
+  }
+}

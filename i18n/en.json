@@ -1,0 +1,22 @@
+{
+  "appearance": {
+    "title": "Customize",
+    "sub-title": "Pick a style and color for your components.",
+    "color-scheme": "Theme",
+    "color-scheme-light": "Light",
+    "color-scheme-dark": "Dark",
+    "color-scheme-auto": "System",
+    "primary-color": "Primary Color",
+    "radius": "Radius",
+    "page-transition": "Page Transition"
+  },
+  "widget": {
+    "dark-toggle": "Toggle dark mode",
+    "fullscreen-toggle": "Toggle fullscreen mode",
+    "language-toggle": "Change languages"
+  },
+  "page": {
+    "home": "Home",
+    "not-found": "Not found"
+  }
+}

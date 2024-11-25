@@ -1,0 +1,10 @@
+<template>
+  <IconButton
+    class="cursor-pointer"
+    as="a"
+    href="https://github.com/jinghaihan/starter-vue"
+    target="_blank"
+    icon="i-radix-icons-github-logo"
+    tooltip="Github"
+  />
+</template>
