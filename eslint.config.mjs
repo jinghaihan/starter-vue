@@ -1,0 +1,6 @@
+import { defineConfig } from '@octohash/eslint-config'
+
+export default defineConfig({
+  unocss: true,
+  formatters: true,
+})

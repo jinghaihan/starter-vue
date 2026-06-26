@@ -1,0 +1,66 @@
+{
+  "name": "app-name",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@11.9.0",
+  "description": "",
+  "author": "jinghaihan",
+  "license": "MIT",
+  "homepage": "https://github.com/jinghaihan/app-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinghaihan/app-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jinghaihan/app-name/issues"
+  },
+  "keywords": [],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deps": "taze major -I",
+    "lint": "eslint",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest",
+    "release": "bumpp",
+    "bootstrap": "pnpm install",
+    "prepare": "simple-git-hooks",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "@unhead/vue": "catalog:frontend",
+    "@unocss/reset": "catalog:frontend",
+    "@vueuse/core": "catalog:frontend",
+    "pinia": "catalog:frontend",
+    "vue": "catalog:frontend",
+    "vue-i18n": "catalog:frontend",
+    "vue-router": "catalog:frontend",
+    "nprogress": "catalog:prod"
+  },
+  "devDependencies": {
+    "@octohash/vite-config": "catalog:build",
+    "vite": "catalog:build",
+    "bumpp": "catalog:dev",
+    "pncat": "catalog:dev",
+    "simple-git-hooks": "catalog:dev",
+    "taze": "catalog:dev",
+    "typescript": "catalog:dev",
+    "@unocss/preset-web-fonts": "catalog:frontend",
+    "unocss": "catalog:frontend",
+    "@iconify-json/lucide": "catalog:icons",
+    "@octohash/eslint-config": "catalog:lint",
+    "@unocss/eslint-config": "catalog:lint",
+    "eslint": "catalog:lint",
+    "eslint-plugin-format": "catalog:lint",
+    "lint-staged": "catalog:lint",
+    "vue-tsc": "catalog:lint",
+    "vitest": "catalog:test",
+    "@types/nprogress": "catalog:types"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}

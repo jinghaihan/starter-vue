@@ -1,0 +1,45 @@
+minimumReleaseAge: 0
+packages: []
+allowBuilds:
+  '@swc/core': true
+  esbuild: true
+  simple-git-hooks: true
+catalogs:
+  build:
+    '@octohash/vite-config': ^0.5.1
+    vite: ^8.1.0
+  dev:
+    bumpp: ^11.1.0
+    pncat: ^0.12.0
+    simple-git-hooks: ^2.13.1
+    taze: ^19.14.1
+    typescript: ^6.0.3
+  frontend:
+    '@unhead/vue': ^3.1.6
+    '@unocss/preset-web-fonts': ^66.7.3
+    '@unocss/reset': ^66.7.3
+    '@vueuse/core': ^14.3.0
+    pinia: ^3.0.4
+    unocss: ^66.7.3
+    vue: ^3.5.39
+    vue-i18n: ^11.4.6
+    vue-router: ^5.1.0
+  icons:
+    '@iconify-json/lucide': ^1.2.114
+  lint:
+    '@octohash/eslint-config': ^0.4.1
+    '@unocss/eslint-config': ^66.7.3
+    eslint: ^10.5.0
+    eslint-plugin-format: ^2.0.1
+    lint-staged: ^17.0.8
+    vue-tsc: ^3.3.5
+  prod:
+    nprogress: ^0.2.0
+  test:
+    vitest: ^4.1.9
+  types:
+    '@types/nprogress': ^0.2.3
+onlyBuiltDependencies:
+  - esbuild
+  - simple-git-hooks
+  - '@swc/core'
